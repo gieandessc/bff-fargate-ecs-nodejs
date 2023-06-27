@@ -1,0 +1,56 @@
+{
+  "name": "bff-fargate-ecs-nodejs",
+  "version": "1.0.0",
+  "description": "skaffold",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index",
+    "dev:start": "nodemon src/index.ts",
+    "build": "tsc",
+    "ci-build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gieandessc/bff-fargate-ecs-nodejs.git"
+  },
+  "keywords": [
+    "bff",
+    "ecs",
+    "fargate",
+    "node"
+  ],
+  "author": "Gieandes Silva",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gieandessc/bff-fargate-ecs-nodejs/issues"
+  },
+  "homepage": "https://github.com/gieandessc/bff-fargate-ecs-nodejs#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.10.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/config": "^3.3.0",
+    "@types/cors": "^2.8.13",
+    "@types/debug": "^4.1.7",
+    "@types/ejs": "^3.1.2",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.1.0",
+    "nodemon": "^2.0.22",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
